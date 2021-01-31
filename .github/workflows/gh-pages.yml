@@ -21,7 +21,7 @@ jobs:
           extended: true
 
       - name: Setup
-        run: ./setup.sh
+        run: sh setup.sh
 
       - name: Build
         run: hugo --minify
