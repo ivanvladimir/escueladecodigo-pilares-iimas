@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 echo "Updating node modules : "
 echo "npx npm-check-updates -u && npm install"
