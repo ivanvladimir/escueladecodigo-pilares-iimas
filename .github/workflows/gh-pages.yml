@@ -20,11 +20,8 @@ jobs:
           hugo-version: '0.80.0'
           extended: true
 
-      - name: Setup
+      - name: Build script
         run: sh setup.sh
-
-      - name: Build
-        run: hugo --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3

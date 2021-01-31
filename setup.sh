@@ -8,9 +8,9 @@ echo "Init git repository : "
 echo "git init"
 git init
 
-echo "Installing Pico theme : "
-echo "git submodule add https://github.com/negrel/hugo-theme-pico.git ./themes/pico"
-git submodule add https://github.com/negrel/hugo-theme-pico.git ./themes/pico
+#echo "Installing Pico theme : "
+#echo "git submodule add https://github.com/negrel/hugo-theme-pico.git ./themes/pico"
+#git submodule add https://github.com/negrel/hugo-theme-pico.git ./themes/pico
 
 ./update.sh
 
