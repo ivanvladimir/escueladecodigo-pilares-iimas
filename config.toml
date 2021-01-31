@@ -1,4 +1,4 @@
-baseURL = 'https://ivanvladimir.github.io/escueladecodigo-pilares-iimas/'
+baseURL = 'https://ivanvladimir.github.io/'
 defaultContentLanguage = 'es'
 # Emoji in markdown files
 enableEmoji = true
